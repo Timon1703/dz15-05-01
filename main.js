@@ -24,13 +24,9 @@ alert(`Ваш возраст ${x} лет`)
 let a = Number(prompt("введите число A"))
 let b = Number(prompt("введите число B"))
 let c = Number(prompt("введите число C"))
-if (a > b) {
+if (a > b || a > c) {
     alert(`Максимальное число ${a}`);
-} else if (a > c) {
-    alert(`Максимальное число ${a}`);
-} else if (b > a) {
-    alert(`Максимальное число ${b}`);
-} else if (b > c) {
+} else if (b > a || b > c) {
     alert(`Максимальное число ${b}`);
 } else {
     alert(`Максимальное число ${c}`);
@@ -50,4 +46,3 @@ if (kod == 123321) {
 // Задание № 5 Конвертер температуры
 
 
-}
